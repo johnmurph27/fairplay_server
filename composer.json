@@ -1,5 +1,5 @@
 {
-  "require":{
+  "require": {
     "vendor/autoload.php"
   }
 }
