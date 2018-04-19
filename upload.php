@@ -13,7 +13,7 @@ if(isset($_FILES['file'])){
   var_dump($extension);
   $extension = strtolower(end($extension));
 
-  $key = m5(uniqid());
+  $key = md5(uniqid());
   $tmp_file_name = "{$key}.{$extension}";
   $tmp_file_path = "files/{$tmp_file_name}";
 
